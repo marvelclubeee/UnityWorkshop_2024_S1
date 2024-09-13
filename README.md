@@ -5,7 +5,8 @@ The <b>Sample</b> project is the completed version of the workshop project for r
 Art assets(CC0) can be downloaded at this link:  https://brackeysgames.itch.io/brackeys-platformer-bundle
 
 # Source code for Singleton
-```using UnityEngine;
+```
+using UnityEngine;
 
 //This class handles logic of creating singleton object that persists through scenes
 public class GlobalSingleton<T> : MonoBehaviour where T : MonoBehaviour
@@ -56,4 +57,5 @@ public class GlobalSingleton<T> : MonoBehaviour where T : MonoBehaviour
     }
 
     protected virtual void Initialize(){}
-}``` 
+}
+``` 
