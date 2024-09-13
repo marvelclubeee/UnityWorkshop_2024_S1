@@ -1,7 +1,7 @@
 # Workshop Intructions
 Before starting the workshop, if you have not set up your Unity, **please install Unity Hub from https://unity.com/download**  
 
-After that, open Unity Hub and install the Editor application by going to **Installs -> Install Editor, and then Choose the recommended LTS version**, remember **do not include Android Build Support** as it will take a long time to finish installing.
+After that, open Unity Hub and install the Editor application by going to **Installs -> Install Editor, and then Choose the recommended LTS version** and press **Install**, remember **do not include Android Build Support** as it will take a long time to finish installing.
 
 After you have done the above, you can open an empty 2D project from Unity Hub by going to **Projects -> New Project -> All Templates -> 2D (Built-in Render Pipeline)**, leave everything as default and press **Create Project**.
 
