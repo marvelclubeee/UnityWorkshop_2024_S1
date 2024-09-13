@@ -1,5 +1,5 @@
 # Instructions for the Workshop
-Before starting the workshop, please install the Editor application from Unity Hub by going to Installs -> Install Editor -> Choose the recommended LTS version  
+Before starting the workshop, please install the Editor application from Unity Hub by going to **Installs -> Install Editor -> Choose the recommended LTS version**, remember **do not include Android Build Suppor** t as it will take a long time to finish installing
 
 The <b>Sample</b> project is the completed version of the workshop project for referencing in your free time, you are encouraged to follow the workshop instructions and try your own before referencing it.  
 
