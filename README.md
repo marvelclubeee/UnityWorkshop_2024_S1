@@ -1,14 +1,16 @@
 # Workshop Intructions
 Before starting the workshop, if you have not set up your Unity and opened an empty 2D project by following the set-up guide in the link below:  
 https://drive.google.com/file/d/1Fj05PuDXmRuF79LuKJz2u1NqVII-gHph/view?usp=sharing  
-**Please do it before the workshop begins**  
+**Please do it before the workshop begins.**  
 
 The <b>Sample</b> project above in this repository is the completed version of the workshop project for referencing in your free time, you are encouraged to follow the workshop instructions and try your own before referencing it.  
 
-# Art assets for the Workshop
+# Resources Needed for the Workshop
+## Art assets for the Workshop
 Art assets(CC0) can be downloaded at this link:  https://brackeysgames.itch.io/brackeys-platformer-bundle
 
-# Source code for Singleton
+## Source code for Singleton  
+Create a script called GlobalSingleton.cs and replace everything with the code below.
 ```
 using UnityEngine;
 
