@@ -37,11 +37,6 @@ public class GlobalSingleton<T> : MonoBehaviour where T : MonoBehaviour
                     //load singleton into instance
                     _instance = new GameObject().AddComponent<T>();
                     _instance.name = typeof(T).ToString();
-                    Debug.Log("Loaded New Manager: " + _instance.name + " as Singleton");
-                }
-                else
-                {
-                    Debug.Log("Loaded Old Manager");
                 }
             }
             return _instance;
