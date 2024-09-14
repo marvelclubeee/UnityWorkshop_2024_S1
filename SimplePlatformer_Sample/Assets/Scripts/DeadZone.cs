@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class DeadZone : MonoBehaviour
 {
-    [SerializeField] private LayerMask playerLayer;
-    
-    // OnTriggerEnter2D is called when the Collider2D other enters the trigger
+    // OnTriggerEnter2D is called when the Collider2D of the object enters the trigger
     public void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("DeadZone");
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")) // check if the object that entered the trigger is the player
         {
             Debug.Log("Player Dead");
             GameManager.Instance.OnGameLose();
