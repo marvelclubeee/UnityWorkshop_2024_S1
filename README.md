@@ -1,5 +1,5 @@
 # Workshop Intructions
-Before starting the workshop, if you have not set up your Unity, **please install Unity Hub from https://unity.com/download**  
+Before starting the workshop, if you have not set up your Unity by following https://drive.google.com/file/d/1Fj05PuDXmRuF79LuKJz2u1NqVII-gHph/view?usp=sharing, **please install Unity Hub from https://unity.com/download**  
 
 After that, open Unity Hub and install the Editor application by going to **Installs -> Install Editor, and then Choose the recommended LTS version** and press **Install**, **do not include Android Build Support in the window that popped out** as it will take a long time to finish installing.
 
