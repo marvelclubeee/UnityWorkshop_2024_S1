@@ -6,11 +6,13 @@ https://drive.google.com/file/d/1Fj05PuDXmRuF79LuKJz2u1NqVII-gHph/view?usp=shari
 The <b>Sample</b> project above in this repository is the completed version of the workshop project for referencing in your free time, you are encouraged to follow the workshop instructions and try your own before referencing it.  
 
 # Resources Needed for the Workshop
-## Art assets for the Workshop
+## Art assets for the Workshop  
 Art assets(CC0) can be downloaded at this link:  https://brackeysgames.itch.io/brackeys-platformer-bundle
+You can scroll down to the bottom to find the download button.  
+PS: we only need the sprites for this workshop.
 
 ## Source code for Singleton  
-Create a script called GlobalSingleton.cs and replace everything with the code below.
+Create a C# script in Unity project called ```GlobalSingleton.cs``` and replace everything with the code below.
 ```
 using UnityEngine;
 
