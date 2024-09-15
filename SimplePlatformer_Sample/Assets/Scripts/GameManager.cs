@@ -7,7 +7,7 @@ public class GameManager : GlobalSingleton<GameManager> {
     public static readonly int WINING_SCORE = 10;
     private int _score = 0;
 
-    public event Action Lost; // Event that is triggered when the game is lost
+    public event Action Lose; // Event that is triggered when the game is lost
     public event Action Win; // Event that is triggered when the game is won
 
     public void RestartGame(){
@@ -38,6 +38,6 @@ public class GameManager : GlobalSingleton<GameManager> {
 
     public void OnGameLose(){
         Debug.Log("You Lose!");
-        Lost?.Invoke(); // raise the "Lost" event
+        Lose?.Invoke(); // raise the "Lose" event
     }
 }
