@@ -14,7 +14,7 @@ PS: we only need the sprites for this workshop.
 ## Source code for Singleton  
 **To use it**  
 1. Create a C# script in Unity project called ```GlobalSingleton.cs``` and replace everything with the code below.  
-2. Let your ```GameManager.cs``` inherit from ```GlobalSingleton.cs```. (e.g. ```public class GameManager : GlobalSingleton<GameManager> {}```)   
+2. Let your ```GameManager``` class inherit from ```GlobalSingleton``` class. (e.g. ```public class GameManager : GlobalSingleton<GameManager> {}```)   
 
 You do not need to worry about what Singleton is at this stage, just remember that it is a way to make a script component **unique and globally accessible** through the game software's life cycle.  
 It is a common programming pattern in game development to keep global game states such as the player's score.  
