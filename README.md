@@ -12,7 +12,7 @@ You can scroll down to the bottom to find the download button.
 PS: we only need the sprites for this workshop.  
 
 ## Source code for Singleton  
-**To use it: **  
+**To use it**  
 1. Create a C# script in Unity project called ```GlobalSingleton.cs``` and replace everything with the code below.  
 2. Inherit your ```GameManager.cs``` from ```GlobalSingleton.cs```. (e.g. ```public class GameManager : GlobalSingleton<GameManager> {}```)   
 
