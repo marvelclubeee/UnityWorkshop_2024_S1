@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
         _rb.AddForce(new Vector2(0, _finalJumpForce), ForceMode2D.Impulse); // apply the jump force as impulse
 
         string animState;
-        if (_moveDirection == 0)
+        if (Mathf.Abs(_moveDirection) <= 1e-10)
         { // If the player is not moving, stop the player
             _rb.velocity = new Vector2(0, _rb.velocity.y);
             animState = "IsIdle";
@@ -69,9 +69,11 @@ public class PlayerController : MonoBehaviour
         return raycastHit.collider != null;
     }
 
-//     private void OnDrawGizmos()
-//     {
-//         Gizmos.color = Color.red;
-//         Gizmos.DrawCube(transform.position + Vector3.down * 0.5f, new Vector3(0.5f, 0.5f, 0));
-//     }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawCube(transform.position + 
+                            Vector3.down * 0.5f, 
+                            new Vector3(0.5f, 0.5f, 0));
+    }
 }
