@@ -37,6 +37,7 @@ public class GlobalSingleton<T> : MonoBehaviour where T : MonoBehaviour
         {
             _instance = this as T;
             DontDestroyOnLoad(this);
+            Debug.Log("Singleton instance " + _instance.name + " loaded");
         }
     }
 
