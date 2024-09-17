@@ -12,13 +12,13 @@ public class GameEndCanvas : MonoBehaviour
     void Start()
     {
         // listen to the game winning or losing events from GameManager
-        GameManager.Instance.Lose += OnGameLost;
         GameManager.Instance.Win += OnGameWin;
+        GameManager.Instance.Lose += OnGameLost;
     }
 
     private void OnDestroy() { // remember to unsubscribe the event when the object is destroyed
-        GameManager.Instance.Lose -= OnGameLost;
         GameManager.Instance.Win -= OnGameWin;
+        GameManager.Instance.Lose -= OnGameLost;
     }
 
     private void OnGameWin()

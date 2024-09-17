@@ -11,7 +11,7 @@ public class DeadZone : MonoBehaviour
         if (other.CompareTag("Player")) // check if the object that entered the trigger is the player
         {
             Debug.Log("Player Dead");
-            GameManager.Instance.OnGameLose();
+            GameManager.Instance.PublishLose();
         }
     }
 }

@@ -26,17 +26,17 @@ public class GameManager : GlobalSingleton<GameManager> {
     {
         if (_score >= WINING_SCORE)
         {
-            OnGameWin();
+            PublishWin();
         }
     }
 
-    public void OnGameWin()
+    public void PublishWin()
     {
         Debug.Log("You Win!");
         Win?.Invoke(); // raise the "Win" event
     }
 
-    public void OnGameLose(){
+    public void PublishLose(){
         Debug.Log("You Lose!");
         Lose?.Invoke(); // raise the "Lose" event
     }
